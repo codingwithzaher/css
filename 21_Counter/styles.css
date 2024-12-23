@@ -1,0 +1,12 @@
+/* 14. العدادات */
+.counter-example {
+  counter-reset: list-counter;
+}
+
+.counter-example li {
+  counter-increment: list-counter;
+}
+
+.counter-example li::before {
+  content: counter(list-counter) ". ";
+}

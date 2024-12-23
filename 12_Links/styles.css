@@ -1,0 +1,9 @@
+/* 5. الروابط */
+.link-example {
+  text-decoration: none;
+  color: blue;
+}
+
+.link-example:hover {
+  color: red;
+}

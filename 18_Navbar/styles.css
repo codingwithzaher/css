@@ -1,0 +1,9 @@
+/* 11. شريط التنقل */
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 15px;
+}

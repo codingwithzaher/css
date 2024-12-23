@@ -1,0 +1,7 @@
+/* 15. الصور المقتطعة */
+.icon-example {
+  background: url("sprites.png") no-repeat;
+  width: 300px;
+  height: 400px;
+  background-position: 0 0;
+}

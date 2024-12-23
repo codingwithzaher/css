@@ -1,0 +1,28 @@
+/* 1. مثال على الهامش الداخلي */
+.example-padding {
+  padding: 20px; /* هامش داخلي 20px */
+  background-color: lightblue;
+  margin-bottom: 20px; /* هامش خارجي من الأسفل */
+}
+
+/* 2. مثال على الهامش الخارجي */
+.example-margin {
+  margin: 20px; /* هامش خارجي من جميع الجهات */
+  background-color: lightgreen;
+  padding: 10px; /* هامش داخلي 10px */
+}
+
+/* 3. دمج الهامش الداخلي والخارجي */
+.example-combined {
+  padding: 15px; /* هامش داخلي 15px */
+  margin: 20px 30px 10px 40px; /* هامش خارجي - علوي 20px، يمين 30px، سفلي 10px، يسار 40px */
+  background-color: lightcoral;
+}
+
+/* 4. توسيط العنصر باستخدام الهامش الخارجي */
+.example-center {
+  width: 50%;
+  margin: 0 auto; /* توسيط العنصر أفقيًا */
+  background-color: lightyellow;
+  padding: 10px;
+}

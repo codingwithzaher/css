@@ -1,0 +1,7 @@
+/* 6. المحتوى الفائض */
+.overflow-example {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  background-color: lightgray;
+}

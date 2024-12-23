@@ -1,0 +1,12 @@
+/* 16. عناصر النماذج */
+.form-example input,
+.form-example textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-example button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}

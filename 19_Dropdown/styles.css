@@ -1,0 +1,11 @@
+/* 12. القوائم المنسدلة */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

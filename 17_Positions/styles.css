@@ -1,0 +1,8 @@
+/* 10. المواقع */
+.position-example {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  background-color: lightblue;
+  padding: 10px;
+}

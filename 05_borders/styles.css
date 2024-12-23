@@ -1,0 +1,25 @@
+/* 1. تخصيص الحدود باستخدام نمط وسماكة ولون */
+.border-example {
+  border: 3px solid green; /* حد أخضر مستمر */
+  padding: 20px;
+  margin: 10px;
+}
+
+/* 2. تخصيص الزوايا المستديرة */
+.border-radius-example {
+  border: 2px solid blue; /* حد أزرق */
+  border-radius: 20px; /* زوايا مستديرة */
+  padding: 20px;
+  margin: 10px;
+}
+
+/* 3. تخصيص الحدود بشكل منفصل */
+.combined-border {
+  border-top: 3px dashed red; /* حد علوي متقطع */
+  border-right: 5px solid purple; /* حد أيمن مستمر */
+  border-bottom: 2px dotted orange; /* حد سفلي منقط */
+  border-left: 4px double black; /* حد أيسر مزدوج */
+  border-radius: 10px; /* زوايا مستديرة */
+  padding: 20px;
+  margin: 10px;
+}

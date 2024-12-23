@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مثال تحديد العناصر في CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>مثال على تحديد العناصر في CSS</h1>
+
+    <!-- عناصر بتحديد بواسطة class -->
+    <div class="card">Content 1</div>
+    <div class="card">Content 2</div>
+
+    <!-- عنصر بتحديد بواسطة id -->
+    <div id="header">This is the header</div>
+
+    <!-- قائمة توضح استخدام الأبناء المباشرين -->
+    <ul>
+        <li>Direct child</li> <!-- سيتم تنسيقه باللون الأحمر -->
+        <div>
+            <li>Not a direct child</li> <!-- لن يتم تنسيقه -->
+        </div>
+    </ul>
+
+    <!-- تجميع الأنماط المشتركة -->
+    <h1>عنوان رئيسي</h1>
+    <h2>عنوان فرعي</h2>
+    <h3>عنوان فرعي آخر</h3>
+
+    <!-- مثال على تضارب الخصائص -->
+    <p id="unique" class="special">This is a paragraph with ID and class.</p>
+</body>
+
+</html>

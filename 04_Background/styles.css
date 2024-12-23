@@ -1,0 +1,12 @@
+/* تخصيص الخلفية باستخدام مجموعة من الخصائص */
+.background-example {
+  background-color: rgba(0, 128, 128, 0.8); /* خلفية نصف شفافة بلون أخضر مزرق */
+  background-image: url("texture.jpg"); /* إضافة صورة كخلفية */
+  background-repeat: repeat-x; /* تكرار الصورة بشكل أفقي */
+  background-size: contain; /* جعل الصورة تتناسب مع أبعاد العنصر */
+  background-position: bottom right; /* تحديد موضع الصورة أسفل اليمين */
+  background-attachment: fixed; /* تثبيت الصورة أثناء التمرير */
+  padding: 300px;
+  color: white;
+  text-align: center;
+}

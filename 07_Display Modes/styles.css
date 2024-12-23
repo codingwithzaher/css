@@ -1,0 +1,104 @@
+/* 1. أسلوب Block */
+.block-example {
+  display: block;
+  width: 100%;
+  background-color: lightblue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* 2. أسلوب Inline */
+.inline-example {
+  display: inline;
+  background-color: lightgreen;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+/* 3. أسلوب Inline-block */
+.inline-block-example {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* 4. أسلوب Flex */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.flex-item {
+  background-color: lightyellow;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* 5. أسلوب Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  background-color: lightpink;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 6. أسلوب None */
+.none-example {
+  display: none;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* 7. أسلوب Visibility Hidden */
+.visibility-hidden-example {
+  visibility: hidden;
+  background-color: lightgray;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* 8. أبعاد العنصر */
+.dimensions-example {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* 9. نسبة العرض إلى الارتفاع */
+.aspect-ratio-example {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* 10. حساب الهامش والحدود ضمن الحجم */
+.box-sizing-example {
+  box-sizing: border-box;
+  width: 200px;
+  border: 10px solid blue;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: lightcyan;
+}
+
+/* لضمان التوافق على جميع المتصفحات */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

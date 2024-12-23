@@ -1,0 +1,11 @@
+/* 9. الجداول */
+.table-example {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-example td,
+.table-example th {
+  border: 1px solid black;
+  padding: 10px;
+}

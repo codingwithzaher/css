@@ -1,0 +1,145 @@
+/* 1. الحدود الخارجية */
+.outline-example {
+  outline: 2px solid red;
+  outline-offset: 5px;
+  padding: 10px;
+}
+
+/* 2. النصوص */
+.text-example {
+  color: blue;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* 3. الخطوط */
+.font-example {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 4. تأثيرات الظل */
+.shadow-example {
+  text-shadow: 2px 2px 5px gray;
+}
+
+/* 5. الروابط */
+.link-example {
+  text-decoration: none;
+  color: blue;
+}
+
+.link-example:hover {
+  color: red;
+}
+
+/* 6. المحتوى الفائض */
+.overflow-example {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  background-color: lightgray;
+}
+
+/* 7. تدفق العناصر */
+.float-example {
+  float: left;
+  margin-right: 10px;
+}
+
+/* 8. القوائم */
+.list-example {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-example li {
+  margin: 5px 0;
+}
+
+/* 9. الجداول */
+.table-example {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-example td,
+.table-example th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* 10. المواقع */
+.position-example {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+/* 11. شريط التنقل */
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+/* 12. القوائم المنسدلة */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* 13. قبل وبعد العنصر */
+.before-after-example:before {
+  content: ">> ";
+}
+
+.before-after-example:after {
+  content: " <<";
+}
+
+/* 14. العدادات */
+.counter-example {
+  counter-reset: list-counter;
+}
+
+.counter-example li {
+  counter-increment: list-counter;
+}
+
+.counter-example li::before {
+  content: counter(list-counter) ". ";
+}
+
+/* 15. الصور المقتطعة */
+.icon-example {
+  background: url("sprites.png") no-repeat;
+  width: 50px;
+  height: 50px;
+  background-position: 0 0;
+}
+
+/* 16. عناصر النماذج */
+.form-example input,
+.form-example textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-example button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
